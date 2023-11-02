@@ -1,0 +1,20 @@
+.defaultBtn{
+    color:#F9FAFB;
+    background-color: #32c077d2;
+    padding: 2% 4%;
+    min-width: 30%;
+    height: 75%;
+    margin-left: 2%;
+    border: none;
+    border-radius: 10px;
+    font-weight: 450;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.defaultBtn:hover{
+    background-color: #32c077;
+}

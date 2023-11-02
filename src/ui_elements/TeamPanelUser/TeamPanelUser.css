@@ -1,0 +1,98 @@
+.TeamPanelUser{
+    width: 100%;
+    min-height: 7vh;
+    padding: 2% 3%;
+    font-size: 18px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.TeamPanelUser:hover{
+    background-color: #EFEFF6;
+}
+
+.PhotoWrap{
+    width: 7vh;
+    height: 7vh;
+    margin: 0 1% 0 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.userPhoto{
+    width: auto;
+  height: 100%;
+}
+
+.userInfo{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.userTitle{
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+.userName{
+    font-weight: 600;
+    font-size: 18px;
+    color: #424F5E;
+    line-height: 20px;
+    margin-right: 1%;
+}
+
+.userStatus{
+    color: #9494A0;
+    font-size: 18px;
+    font-weight: 450; 
+}
+
+.userEmail{
+    color: #9494A0;
+    font-size: 18px;
+    font-weight: 400; 
+    margin-left: 1%;
+}
+
+.userTags{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.tag{
+    color: #9494A0;
+    font-weight: 400;
+    font-size: 16px;
+    min-width: 5%;
+    padding: 0.2% 1%;
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid #C1C1CB;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.5%;
+    margin-bottom: 0.5%;
+}
+
+.editUser{
+    position: absolute;
+    right: 3%;
+    top: 10%;
+    border: none;
+    background-color:unset;
+    font-size: 30px;
+    color: #C1C1CB;
+    cursor: pointer;
+}

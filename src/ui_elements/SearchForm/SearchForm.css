@@ -1,0 +1,37 @@
+
+.searchForm {
+  position: relative;
+  width: 70%;
+  height: 75%;
+  display: block;
+}
+.searchForm  input {
+  height: 100%;
+  width: 0;
+  padding: 0 5%;
+  border: none;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  outline: none;
+  background: transparent;
+  transition: .4s cubic-bezier(0, 0.8, 0, 1);
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+.searchForm  input:focus {
+  width: 90%;
+  z-index: 1;
+  border: 1px solid #C1C1CB;
+}
+.searchForm  button {
+  height: 100%;
+  width: 5%;
+  border: none;
+  background: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}

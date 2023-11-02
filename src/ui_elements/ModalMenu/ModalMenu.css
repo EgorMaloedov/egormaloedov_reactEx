@@ -1,0 +1,18 @@
+
+.Modal_content{
+    z-index: 5;
+    padding: 5% 10%;
+    border-radius: 10px;
+    background-color: #F9FAFB;
+    position: absolute;
+    transform: scale(0);
+    right: 0;
+    top: 5%;
+}
+
+.Modal_content.active{
+    transform: scale(1);
+}
+
+
+

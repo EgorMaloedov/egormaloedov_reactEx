@@ -1,0 +1,14 @@
+.opacityBtn{
+    color:#F9FAFB;
+    background: none;
+    height: 50%;
+    margin-left: 2%;
+    border: none;
+    border-radius: 10px;
+    font-weight: 450;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}

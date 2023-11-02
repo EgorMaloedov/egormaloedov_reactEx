@@ -1,0 +1,14 @@
+#AdminPanel{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 7fr 93fr;
+  }
+
+.Content{
+  box-sizing: border-box;
+  padding: 3% 0;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}

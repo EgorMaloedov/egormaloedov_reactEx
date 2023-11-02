@@ -1,0 +1,36 @@
+.ContentPanel{
+    width: 80%;
+
+    min-height: 30%;
+    background-color: #fff;
+    margin: 0 auto 10% auto;
+    border-radius: 15px;
+    font-size: 30px;
+    color: #424F5E;
+}
+
+.ContentPanel header{
+    width: 100%;
+    box-sizing: border-box;
+    height: 10vh;
+    padding: 1% 3%;
+    border-radius: 15px 15px 0 0;
+    border-bottom: 1px solid #C4C4C4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ContentPanel .InsideContent{
+    padding-bottom: 2%;
+}
+
+.buttons{
+    width: 80%;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
